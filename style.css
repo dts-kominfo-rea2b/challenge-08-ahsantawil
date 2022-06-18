@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(131, 115, 147);
+    
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border: 15px solid rgb(84, 155, 186);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: beige;
+}
+#todo-title {
+    background-color: rgb(79, 148, 195);
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+#todo-subtitle {
+    padding-top: 10px;
+}
+
+#todo-input {
+  box-sizing: border-box;
+}
+
+#todo-submit {
+    background-color: #3CBC8D;
+    color: white;
+}
+
+#todo-output {
+    text-align: left;
+}
